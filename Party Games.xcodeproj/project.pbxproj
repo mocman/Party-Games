@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77042AE2AB9716000F2C24E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A77042AD2AB9716000F2C24E /* Lottie */; };
+		A77042B02AB9753700F2C24E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77042AF2AB9753700F2C24E /* LottieView.swift */; };
+		A77042B62AB977D700F2C24E /* sad.json in Resources */ = {isa = PBXBuildFile; fileRef = A77042B52AB977D700F2C24E /* sad.json */; };
+		A77042BA2AB97A4800F2C24E /* cool.json in Resources */ = {isa = PBXBuildFile; fileRef = A77042B92AB97A4800F2C24E /* cool.json */; };
+		A788E4F82AB42BFB00865D78 /* JSONCodables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A788E4F72AB42BFB00865D78 /* JSONCodables.swift */; };
+		A797DF622AB7A79400812183 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797DF612AB7A79400812183 /* GameOverView.swift */; };
+		A7B742C12AB965F500FBA1CA /* finish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A7B742C02AB965F500FBA1CA /* finish.m4a */; };
+		A7BAEB8D2AB85B810052B4FA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEB8C2AB85B810052B4FA /* PlayerView.swift */; };
+		A7BAEB8F2AB903EB0052B4FA /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7BAEB8E2AB903EB0052B4FA /* Secrets.plist */; };
+		A7BAEB912AB924950052B4FA /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAEB902AB924950052B4FA /* Errors.swift */; };
 		A7D00C562A9F0F010080DF23 /* Party_GamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D00C552A9F0F010080DF23 /* Party_GamesApp.swift */; };
-		A7D00C582A9F0F010080DF23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D00C572A9F0F010080DF23 /* ContentView.swift */; };
+		A7D00C582A9F0F010080DF23 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D00C572A9F0F010080DF23 /* GameView.swift */; };
 		A7D00C5A2A9F0F030080DF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D00C592A9F0F030080DF23 /* Assets.xcassets */; };
 		A7D00C5D2A9F0F030080DF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D00C5C2A9F0F030080DF23 /* Preview Assets.xcassets */; };
+		A7D1443F2A9FD0C400D5BF58 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D1443E2A9FD0C400D5BF58 /* GameViewModel.swift */; };
+		A7D7E2D52AB835100024EE49 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7E2D42AB835100024EE49 /* StartButtonView.swift */; };
+		A7D7E2D72AB837CE0024EE49 /* MovieBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7E2D62AB837CE0024EE49 /* MovieBlockView.swift */; };
+		A7D7E2D92AB841BA0024EE49 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7E2D82AB841BA0024EE49 /* TouchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A77042AF2AB9753700F2C24E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A77042B52AB977D700F2C24E /* sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sad.json; sourceTree = "<group>"; };
+		A77042B92AB97A4800F2C24E /* cool.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cool.json; sourceTree = "<group>"; };
+		A788E4F72AB42BFB00865D78 /* JSONCodables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONCodables.swift; sourceTree = "<group>"; };
+		A797DF612AB7A79400812183 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		A7B742C02AB965F500FBA1CA /* finish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = finish.m4a; sourceTree = "<group>"; };
+		A7BAEB8C2AB85B810052B4FA /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		A7BAEB8E2AB903EB0052B4FA /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		A7BAEB902AB924950052B4FA /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		A7D00C522A9F0F010080DF23 /* Party Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D00C552A9F0F010080DF23 /* Party_GamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party_GamesApp.swift; sourceTree = "<group>"; };
-		A7D00C572A9F0F010080DF23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7D00C572A9F0F010080DF23 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A7D00C592A9F0F030080DF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D00C5C2A9F0F030080DF23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7D1443E2A9FD0C400D5BF58 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		A7D7E2D42AB835100024EE49 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		A7D7E2D62AB837CE0024EE49 /* MovieBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBlockView.swift; sourceTree = "<group>"; };
+		A7D7E2D82AB841BA0024EE49 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +53,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77042AE2AB9716000F2C24E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A77042BB2AB97A8F00F2C24E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A77042AF2AB9753700F2C24E /* LottieView.swift */,
+				A77042B92AB97A4800F2C24E /* cool.json */,
+				A77042B52AB977D700F2C24E /* sad.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		A7B742BD2AB964F300FBA1CA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A7B742C02AB965F500FBA1CA /* finish.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		A7D00C492A9F0F010080DF23 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +98,19 @@
 			isa = PBXGroup;
 			children = (
 				A7D00C552A9F0F010080DF23 /* Party_GamesApp.swift */,
-				A7D00C572A9F0F010080DF23 /* ContentView.swift */,
+				A7D1443E2A9FD0C400D5BF58 /* GameViewModel.swift */,
+				A7D00C572A9F0F010080DF23 /* GameView.swift */,
+				A7BAEB8C2AB85B810052B4FA /* PlayerView.swift */,
+				A7D7E2D62AB837CE0024EE49 /* MovieBlockView.swift */,
+				A797DF612AB7A79400812183 /* GameOverView.swift */,
+				A7D7E2D42AB835100024EE49 /* StartButtonView.swift */,
+				A7D7E2D82AB841BA0024EE49 /* TouchView.swift */,
+				A788E4F72AB42BFB00865D78 /* JSONCodables.swift */,
+				A7BAEB902AB924950052B4FA /* Errors.swift */,
+				A77042BB2AB97A8F00F2C24E /* Lottie */,
+				A7B742BD2AB964F300FBA1CA /* Sounds */,
 				A7D00C592A9F0F030080DF23 /* Assets.xcassets */,
+				A7BAEB8E2AB903EB0052B4FA /* Secrets.plist */,
 				A7D00C5B2A9F0F030080DF23 /* Preview Content */,
 			);
 			path = "Party Games";
@@ -83,6 +140,9 @@
 			dependencies = (
 			);
 			name = "Party Games";
+			packageProductDependencies = (
+				A77042AD2AB9716000F2C24E /* Lottie */,
+			);
 			productName = "Party Games";
 			productReference = A7D00C522A9F0F010080DF23 /* Party Games.app */;
 			productType = "com.apple.product-type.application";
@@ -95,7 +155,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A7D00C512A9F0F010080DF23 = {
 						CreatedOnToolsVersion = 14.3;
@@ -111,6 +171,9 @@
 				Base,
 			);
 			mainGroup = A7D00C492A9F0F010080DF23;
+			packageReferences = (
+				A77042AC2AB9716000F2C24E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = A7D00C532A9F0F010080DF23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D00C5D2A9F0F030080DF23 /* Preview Assets.xcassets in Resources */,
+				A77042B62AB977D700F2C24E /* sad.json in Resources */,
+				A7BAEB8F2AB903EB0052B4FA /* Secrets.plist in Resources */,
 				A7D00C5A2A9F0F030080DF23 /* Assets.xcassets in Resources */,
+				A77042BA2AB97A4800F2C24E /* cool.json in Resources */,
+				A7B742C12AB965F500FBA1CA /* finish.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D00C582A9F0F010080DF23 /* ContentView.swift in Sources */,
+				A7BAEB8D2AB85B810052B4FA /* PlayerView.swift in Sources */,
+				A7D7E2D92AB841BA0024EE49 /* TouchView.swift in Sources */,
+				A797DF622AB7A79400812183 /* GameOverView.swift in Sources */,
+				A7D00C582A9F0F010080DF23 /* GameView.swift in Sources */,
+				A7D1443F2A9FD0C400D5BF58 /* GameViewModel.swift in Sources */,
+				A7D7E2D52AB835100024EE49 /* StartButtonView.swift in Sources */,
+				A7BAEB912AB924950052B4FA /* Errors.swift in Sources */,
 				A7D00C562A9F0F010080DF23 /* Party_GamesApp.swift in Sources */,
+				A7D7E2D72AB837CE0024EE49 /* MovieBlockView.swift in Sources */,
+				A77042B02AB9753700F2C24E /* LottieView.swift in Sources */,
+				A788E4F82AB42BFB00865D78 /* JSONCodables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +257,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,11 +348,14 @@
 				DEVELOPMENT_TEAM = 38Y8GZ2DET;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We will transcribe your answers to check if they're correct.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +363,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mocmanMedia.Party-Games";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,11 +383,14 @@
 				DEVELOPMENT_TEAM = 38Y8GZ2DET;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for speech recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We will transcribe your answers to check if they're correct.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +398,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mocmanMedia.Party-Games";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +429,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A77042AC2AB9716000F2C24E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A77042AD2AB9716000F2C24E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A77042AC2AB9716000F2C24E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7D00C4A2A9F0F010080DF23 /* Project object */;
 }
